@@ -6,7 +6,7 @@ const range = {
   average: 45.325,
 };
 // Only change code below this line
-const middle = (range) => {};
+const middle = ({ min, max }) => (max + min) / 2.0;
 // Only change code below this line
 console.log(middle(range));
 module.exports = middle;
